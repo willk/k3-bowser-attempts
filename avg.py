@@ -51,10 +51,6 @@ def calculate_average_image(video_path, start_frame, end_frame):
 # To save the average image:
 # cv2.imwrite('average_image.png', average_image)
 
-# This function would be used with an actual video file and the OpenCV library installed.
-# If you provide a video file and the specific frames, I can adapt this code to work with it.
-
-
 if __name__ == '__main__':
     avg_image = calculate_average_image('bowser_room.mp4', 20, 1429)
     cv2.imwrite('average_image.png', avg_image)
